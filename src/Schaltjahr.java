@@ -7,9 +7,7 @@ public class Schaltjahr {
 		int jahr = 0;
 		String year = JOptionPane.showInputDialog("Welches Jahr");
 		jahr = Integer.parseInt(year);
-		if(Schaltjahr(jahr)==true) {
-			System.out.println(jahr + " ist ein Schaltjahr.");
-		}
+		
 		
 	}
 	public static boolean Schaltjahr(int jahr) {
